@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat';
+    padding: 20px 0;
+    list-style-image: url(../images/bx-world.svg);
+}
+header img{
+    width: 1285px;
+}
+.menu{
+    list-style: none;
+    background-color: rgb(43, 146, 43);
+    display: flex;
+  }
+  .menu>a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  ul.menu>li{
+    float: left;
+  }
+  ul.menu>li>a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  ul.menu>li>a:hover,.menu>a:hover {
+    color: rgb(170, 170, 170);
+    text-decoration: underline;
+    background-color: rgb(203, 247, 197);
+  }
+  ul.menu>li:hover>.sub-menu {
+     display: block;
+  }
+  .right{
+    float: right;
+    display:flex;
+    padding: 14px 16px;
+    list-style: none;
+    margin-left: 420px;
+  }
+  .right>li>a{
+    text-decoration: none;
+    color: white;
+    padding-left: 16px;
+  }
+  ul.menu>.right>li>a:hover{
+    color: rgb(170, 170, 170);
+    text-decoration: underline;
+    background-color: rgb(203, 247, 197);
+  }
+  .sub-menu{
+    border-radius: 5px;
+    list-style: none;
+    width: 250px;
+    position: absolute;
+    display: none;
+    height: 150px;
+  }
+  .sub-menu>ul{
+    position: relative;
+    display: block;
+  }
+  .sub-menu>li>a{
+    text-decoration: none;
+    padding-left: 25px;
+    color: white;
+    background-color: rgb(130, 201, 130);
+    border-bottom: 1.5px solid gray;
+    display: block;
+  }
+  .sub-menu>li>a:hover{
+    color: rgb(170, 170, 170);
+    text-decoration: underline;
+    background-color: rgb(203, 247, 197);
+    display: block;
+  }
+.title{
+    text-align: center;
+    color: rgba(34, 12, 14, 0.836);
+}
+.title-detail{
+    text-align: center;
+    color: rgba(32, 100, 74, 0.445);
+}
+.content{
+    color: rgb(68, 68, 68);
+    padding:0 200px;
+}
+.content a{
+    text-decoration: none;
+    font-weight: 650;
+    color: rgb(68, 68, 68);
+}
+.luat{
+    color: rgb(68, 68, 68);
+    padding: 0 380px;
+}
+.footer {
+  height: 200px;
+  background-color: #93ac98;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 100px;
+  width: 100%;
+  display: flex;
+}
+.footer a {
+  color: rgb(34, 42, 44);
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.text-footer{
+ padding: 5px 40px;
+}
+.img-footer{
+  width: 180px;
+  padding: 0px 0;
+}
